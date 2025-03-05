@@ -1,0 +1,17 @@
+# Ignorar arquivos sensíveis
+config.env
+*.ppk
+*.key
+*.pem
+senha.txt
+
+# Ignorar diretórios temporários (se existirem)
+logs/
+temp/
+backup/
+
+# Ignorar arquivos específicos de sistema e editores de código
+.DS_Store
+Thumbs.db
+*.log
+*.bak
